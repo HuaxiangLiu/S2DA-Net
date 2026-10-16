@@ -11,11 +11,11 @@ LiTS2017：https://competitions.codalab.org/competitions/17094#participate
 
 1. Download nnUNet framework from the website:https://github.com/MIC-DKFZ/nnUNet, and use the following commands:
 
-git clone https://github.com/MIC-DKFZ/nnUNet.git (note: nnUNetv1 version)
+git clone https://github.com/MIC-DKFZ/nnUNet.git (note: nnUNetv1 version) 
 cd nnUNet
 pip install -e .
 
-2. The above files including GCHA_Net.py is put into the fold: nnunetv2\training\nnUNetTrainer\variants\network_architecture.
+2. The above files including SpectralNet_S2DA.py is put into the fold: nnunetv2\training\nnUNetTrainer\variants\network_architecture.
 
 3. put the file named as 'run_training.py' into the folder 'nnunet\run'
 
