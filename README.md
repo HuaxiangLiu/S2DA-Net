@@ -11,11 +11,13 @@ LiTS2017：https://competitions.codalab.org/competitions/17094#participate
 
 1. Download nnUNet framework from the website:https://github.com/MIC-DKFZ/nnUNet, and use the following commands:
 
-git clone https://github.com/MIC-DKFZ/nnUNet.git (note: nnUNetv1 version) 
+git clone https://github.com/MIC-DKFZ/nnUNet.git (note: nnUNetv1 version on NVDIO A6000 GPU) 
 cd nnUNet
 pip install -e .
 
-2. The above files including SpectralNet_S2DA.py is put into the fold: nnunetv2\training\nnUNetTrainer\variants\network_architecture.
+Noting: you must use the Apex
+
+2. The above files including SpectralNet_S2DA.py is put into the fold: nnunetv2\training\nnUNetTrainer\variants\network_architecture.  Then, you should unzip the file 'fft.zip', and input the fold named 'fft' with the equal location of SpectralNet_S2DA.py.
 
 3. put the file named as 'run_training.py' into the folder 'nnunet\run'
 
