@@ -20,11 +20,9 @@ Noting: you must use the Apex
 
 2. The above files including SpectralNet_S2DA.py is put into the fold: nnunetv2\training\nnUNetTrainer\variants\network_architecture.  Then, you should unzip the file 'fft.zip', and input the fold named 'fft' with the equal location of SpectralNet_S2DA.py.
 
-3. put the file named as 'run_training.py' into the folder 'nnunet\run'
+3. run the command 'python run_training.py'.
 
-4. run the command 'python run_training.py'.
-
-If you encounter any problems, please do not hesitate to contact us.
+If you encounter any problems or need the pretaied model, please do not hesitate to contact us.
 
 # use this code,please cite this paper
 
