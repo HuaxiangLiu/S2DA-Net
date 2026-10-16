@@ -11,7 +11,8 @@ LiTS2017：https://competitions.codalab.org/competitions/17094#participate
 
 1. Download nnUNet framework from the website:https://github.com/MIC-DKFZ/nnUNet, and use the following commands:
 
-git clone https://github.com/MIC-DKFZ/nnUNet.git (note: nnUNetv1 version on NVDIO A6000 GPU) 
+git clone https://github.com/MIC-DKFZ/nnUNet.git (note: nnUNetv1 version on NVDIO A6000 GPU)
+
 cd nnUNet
 pip install -e .
 
