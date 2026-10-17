@@ -6,6 +6,8 @@ This code is for the paper title 'S2DA-Net: Spatial and spectral-learning double
 # dataset 
 LiTS2017：https://competitions.codalab.org/competitions/17094#participate
 
+3D-IRCADb 01：[https://www.ircad.fr/research/3d-ircadb-01/](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/)
+
 
 # How to use this code
 
